@@ -1,0 +1,621 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    color: #18191f;
+}
+.inner-wrapper {
+    max-width: 1100px;
+    width: 100;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:hover{
+ opacity: 0.7;
+}
+.screen-background{
+    background: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50% auto;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.logo {
+    margin-right: 32px;
+    width: 23px;
+    height: auto;
+}
+.menu {
+    margin-right: auto;
+    font-weight: bold;
+    font-feature-settings: 'liga' off;
+}
+.menu-item {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 32px;
+    align-items: center;
+}
+.download-image-1 {
+    width: 150px;
+    height: auto;
+    align-items: center;
+} 
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 72px; 
+} 
+.offer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.phone-screen {
+    max-width: 90%;
+    max-height: 90%;
+}
+.first-phone{
+    flex: 0 1 50%;
+    padding-top: 30px;
+}
+.screen-background .inner-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cta-header {
+    display: flex;
+    flex: 0 1 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    font-weight: 800;
+    color: rgb(241, 208, 19);
+    font-size: 62px;
+    line-height: 98px;
+    text-align: center; 
+    font-feature-settings: 'liga' off;
+    padding: 40px 0px;
+}
+.button {
+    background: #18191f;
+    border-radius: 8px;
+    width: 196px;
+    height: 62px;
+    -webkit-appearance: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-feature-settings: 'liga' off;
+    color: rgb(233, 233, 233);
+}
+.button-link-arrow {
+    width: 15px;
+    transform: translate(0,-2px) rotate(270deg);
+}
+.button-link {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #18191f;
+    text-decoration: none;
+}
+.section {
+     padding-top: 64px;
+     padding-bottom: 64px; 
+}
+.description-screen .inner-wrapper {
+    display: flex;
+}
+.description-screen .block {
+    width: 50%;
+}
+.image-block {
+    background-color: rgba(37, 95, 188, 0.3);
+    padding-top: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.content-block {
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.image-block .phone-screen {
+    width: 75%;
+    position: absolute;
+    max-width: initial;
+    max-height: initial;
+    top: 56px; 
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.h3 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    font-feature-settings: 'liga' off; 
+}
+.content-block .h3 {
+    margin-bottom: 32px;
+}
+.content-block .content {
+    margin-bottom: 32px;
+}
+.content {
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+}
+.h2{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'liga' off;
+}
+.h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+}
+.h5{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+}
+.step-wrapper {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+.step{
+    padding-right: 30px;
+    width: 25%;
+    box-sizing: border-box;
+}
+.step-top{
+    display: flex;
+    align-items: flex-end;
+}
+.step-line{
+    width: calc(100% - 75px);
+}
+.step:nth-child(2n-1) .step-line{
+    transform: translate(0, -20px) rotate(3deg);
+    transform-origin: bottom left;
+    padding-left: 15px;
+}
+.step:nth-child(2n) .step-line {
+    transform: translate(0, 10px) rotate(190deg);
+    align-self: flex-start;
+    padding-right: 15px;
+}
+.step:last-child .step-line{
+    display: none ;
+}
+.step .h4{
+    margin-bottom: 4px;
+}
+.step .content {
+    font-size: 16px;
+}
+.step-circle{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #F4F5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.section-centred{
+text-align: center;
+}
+
+.section-centred .h2{
+    margin-bottom: 40px;
+}
+.section-centred .button{
+    width: 240px;
+}
+.features-wrapper{
+    max-height: 100vh;
+    height: 640px;
+    display: flex ;
+}
+.features-wrapper .phone-screen{
+    height: 100%;
+    width: auto;
+    max-width: initial;
+    max-height: initial;
+}
+.phone-screen-wrapper{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+.features-list{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+.feature-item{
+    display: flex;
+    margin-bottom: 48px ;
+}
+.feature-item:last-child{
+    margin-bottom: 0px;
+}
+.feature-item .step-circle{
+    margin-right: 40px;
+}
+.news-wrapper{
+    display: flex;
+    margin-top: 40px;
+}
+.news{
+    width: 25%;
+    margin-right: 25px;
+}
+.news:last-child{
+    margin-right: 0px ;
+}
+.news-image{
+    width: 100%;
+    margin-bottom: 10px;
+    animation-name: news-image-anim;
+    animation-duration: 1s;
+}
+@keyframes news-image-anim {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(100%);
+    }
+}
+.section.download-section{
+    background-color: rgba(37, 95, 188, 0.3);
+}
+.advanteges-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+.advantage{
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    display: flex;
+    justify-content: center;
+}
+.advantage-icon{
+    margin-right: 16px;
+}
+.brands-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.brand-image{
+    margin-right: 64px;
+    height: 26px; 
+    width: auto;
+}
+.brand-image:last-child{
+    margin-right: 0;
+}
+.section-desctription{
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+}
+.feedback-section{
+    background-color: #f4f5f7;
+}
+.feedback-section .h2{
+    margin-bottom:   8px;
+}
+.slider-wrapper{
+    margin-top: 40px; 
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.feedback{
+    width: 100;
+    text-align: center;
+}
+.feedback-inner{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 40px;
+    box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.feedback-inner::after{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    content: "";
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #fff;
+    transform: rotate(-45deg) translate(-50%, 0);
+}
+.feedback-title{
+    margin-bottom: 8px;
+}
+.feedback-author .feedback-photo{
+    display: inline;
+}
+.feedback-content{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: 'liga' off; 
+}
+.feedback-name{
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+.feedback-position{
+    font-size: 14px;
+    line-height: 24px;
+    color: #474A57;
+}
+.feedback-photo{
+    width: 56px;
+    height: auto;
+}
+.cta-section{
+    background-color:rgba(37, 95, 188, 0.3);
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+.cta-section .inner-wrapper{
+    display: flex;
+}
+.offer-wrapper{
+    width: 48%;
+    box-sizing: border-box;
+}
+.screen-wrapper{
+    width: 48%;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+}
+.offer-wrapper .h2{
+    margin-bottom: 8px;
+}
+.offer-wrapper .content{
+    margin-bottom: 48px;
+}
+.download-title.content{
+    margin-bottom: 8px;
+}
+.screen-wrapper .phone-screen{
+    width: 307px;
+    height: 464px; 
+}
+.screen-wrapper .phone-screen:first-child{
+    transform: translate(0, -30%);
+}
+.screen-wrapper .phone-screen:last-child{
+    transform: translate(0, 30%);
+}
+.footer{
+    background-color:  #f4f5f7;
+    padding-bottom: 40px;
+}
+.footer-logo{
+    margin-bottom: 24px;
+}
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-link{
+    font-size: 16px;
+    margin-right: 24px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: black;
+}
+.footer-link:last-child{
+    margin-right: 0;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between ;
+}
+.copyrights{
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off
+}
+.footer-download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .menu{
+        display: none;
+    }
+    .inner-wrapper {
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;   
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .download-image-1 {
+        width: 120px;
+    }
+    .h1{
+        font-size: 46px;
+        line-height: 60px;
+        text-align: center;
+        padding: 0;
+    }
+    .h2{
+        font-size: 36px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .step-wrapper{
+        flex-direction: column;
+    }
+    .step{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 30px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .step-circle{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .step-line{
+        display: none;
+    }
+    .button{
+        border-radius: none;
+        width: 130px;
+        height: auto; 
+        font-size: 15px;
+    }
+    .section-centred .button{
+        width: 130px;
+    }
+    .cta-header{
+         align-items: center;
+         display: flex;
+         flex-direction: column;
+    }
+    .cta-header .h1{
+        margin-bottom: 20px; 
+    }
+    .description-screen{
+        padding-top: 30px;
+    }
+    .description-screen .inner-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .description-screen .block{
+        width: 100%;
+    }
+    .image-block{
+        padding-top: 100%;
+        margin-bottom: 30px;
+    }
+    .content-block{
+    padding: 0;
+    }
+    .features-wrapper{
+        max-height: initial;
+        height: auto;
+    }
+    .features-wrapper .phone-screen-wrapper{
+        display: none;
+    }
+    .feature-item .step-circle{
+        margin-right: 0;
+    }
+    .features-list{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+    .feature-item{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        text-align: center;
+        flex-direction: column;
+    }
+    .news-wrapper, .advanteges-wrapper{
+        flex-direction: column;
+    }
+    .news, .advantage{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 30px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .brands-wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .brand-image{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .feedbacks-wrapper{
+        flex-direction: column;
+    }
+    .feedback{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .feedback:last-child{
+        margin-bottom: 0;
+    }
+    .offer-wrapper{
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .screen-wrapper{
+        display: none;
+    }
+    .footer-download{
+        display: none;
+    }
+}
